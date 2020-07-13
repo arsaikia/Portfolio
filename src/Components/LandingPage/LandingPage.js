@@ -437,6 +437,7 @@ const LandingPage = (props) => {
 							marginBottom : '20px'
 						}}
 						src={process.env.PUBLIC_URL + '/toTop.gif'}
+						al={''}
 						onClick={scrollToTop}
 					/>
 					<Space />
