@@ -165,17 +165,17 @@ const Contacts = () => {
 				</ContactButton>
 				<Spacing space={85} mobileSpace={48} />
 				<IconContainers>
-					<a href={'https://www.linkedin.com/in/arsaikia/'} target='_blank'>
+					<a href={'https://www.linkedin.com/in/arsaikia/'} target='_blank' rel='noopener noreferrer'>
 						<Icon onMouseOver={focusHandler1} onMouseOut={focusHandler1}>
 							<Linkedin />
 						</Icon>
 					</a>
-					<a href={'https://github.com/arsaikia'} target='_blank'>
+					<a href={'https://github.com/arsaikia'} target='_blank' rel='noopener noreferrer'>
 						<Icon onMouseOver={focusHandler2} onMouseOut={focusHandler2}>
 							<GitHub />
 						</Icon>
 					</a>
-					<a href='mailto:asaikia1@hawk.iit.edu' target='_blank'>
+					<a href='mailto:asaikia1@hawk.iit.edu' target='_blank' rel='noopener noreferrer'>
 						<Icon onMouseOver={focusHandler3} onMouseOut={focusHandler3}>
 							<Mail />
 						</Icon>

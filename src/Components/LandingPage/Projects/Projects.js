@@ -1,6 +1,5 @@
 import React, { Fragment, useState, useEffect } from 'react';
 import styled from 'styled-components';
-import { RecatIcon, HTMLIcon, CSSIcon, JSIcon, PythonIcon } from '../../Icons/Skills';
 
 const Spacing = styled.div`
 	width: 100%;
@@ -175,7 +174,10 @@ const Projects = () => {
 					<h1>Some of the Things I've Built</h1>
 				</Header>
 
-				<a href={'http://manifest-b2c-app.s3-website-us-east-1.amazonaws.com/'} target='_blank'>
+				<a
+					href={'http://manifest-b2c-app.s3-website-us-east-1.amazonaws.com/'}
+					target='_blank'
+					rel='noopener noreferrer'>
 					<ProjectCard onMouseEnter={() => showGif(1)} onMouseLeave={() => showGif(2)}>
 						<ProjectImage src={project1} alt='project1..' />
 					</ProjectCard>
@@ -199,7 +201,10 @@ const Projects = () => {
 					</ProjectTextBody>
 				</ProjectDescriptionContainer>
 				<Spacing space={100} mobileSpace={80} />
-				<a href={'https://arsaikia.github.io/Pathfinding_Visualizer/'} target='_blank'>
+				<a
+					href={'https://arsaikia.github.io/Pathfinding_Visualizer/'}
+					target='_blank'
+					rel='noopener noreferrer'>
 					<ProjectCard onMouseEnter={() => showGif1(1)} onMouseLeave={() => showGif1(2)}>
 						<ProjectImage src={project2} alt='project2..' />
 					</ProjectCard>
@@ -230,7 +235,10 @@ const Projects = () => {
 				</ProjectDescriptionContainer>
 				<Spacing space={100} mobileSpace={80} />
 
-				<a href={'https://blooming-retreat-21627.herokuapp.com/login#!'} target='_blank'>
+				<a
+					href={'https://blooming-retreat-21627.herokuapp.com/login#!'}
+					target='_blank'
+					rel='noopener noreferrer'>
 					<ProjectCard onMouseEnter={() => showGif2(1)} onMouseLeave={() => showGif2(2)}>
 						<ProjectImage src={project3} alt='project3..' />
 					</ProjectCard>
@@ -256,7 +264,7 @@ const Projects = () => {
 				</ProjectDescriptionContainer>
 				<Spacing space={100} mobileSpace={80} />
 
-				<a href={'https://arsaikia.github.io/AlgorithmVisualizer/'} target='_blank'>
+				<a href={'https://arsaikia.github.io/AlgorithmVisualizer/'} target='_blank' rel='noopener noreferrer'>
 					<ProjectCard onMouseEnter={() => showGif3(1)} onMouseLeave={() => showGif3(2)}>
 						<ProjectImage src={project4} alt='project4..' />
 					</ProjectCard>
@@ -300,7 +308,8 @@ const Projects = () => {
 						<h4>
 							<a
 								href={'https://github.com/arsaikia/E-commerceApp/blob/master/Report.pdf'}
-								target='_blank'>
+								target='_blank'
+								rel='noopener noreferrer'>
 								<h6>E-Commerce Clone</h6>
 							</a>
 							<br />
@@ -319,7 +328,8 @@ const Projects = () => {
 								href={
 									'https://github.com/arsaikia/MLND_Capstone_Human_Activity_Recognition_Using_Smartphones_Sensor_Data'
 								}
-								target='_blank'>
+								target='_blank'
+								rel='noopener noreferrer'>
 								<h6>
 									To find an Optimum Machine Learning Model for Human Activity Recognition Using
 									Smartphones
