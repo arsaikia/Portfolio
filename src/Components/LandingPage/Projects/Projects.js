@@ -235,10 +235,7 @@ const Projects = () => {
 				</ProjectDescriptionContainer>
 				<Spacing space={100} mobileSpace={80} />
 
-				<a
-					href={'https://blooming-retreat-21627.herokuapp.com/login#!'}
-					target='_blank'
-					rel='noopener noreferrer'>
+				<a href={'https://blooming-retreat-21627.herokuapp.com/'} target='_blank' rel='noopener noreferrer'>
 					<ProjectCard onMouseEnter={() => showGif2(1)} onMouseLeave={() => showGif2(2)}>
 						<ProjectImage src={project3} alt='project3..' />
 					</ProjectCard>
