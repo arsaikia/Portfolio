@@ -1,6 +1,6 @@
 {
 	"name": "portfolio",
-	"homepage": "http://asaikia.github.io/Portfolio",
+	"homepage": ".",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
@@ -19,7 +19,7 @@
 	},
 	"scripts": {
 		"start": "react-scripts start",
-		"build": "react-scripts build",
+		"build": "CI= react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"flow": "flow",
