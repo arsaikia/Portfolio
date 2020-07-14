@@ -1,6 +1,6 @@
 {
 	"name": "portfolio",
-	"homepage": "https://arsaikia.github.io/Portfolio/",
+	"homepage": "https://arsaikia.github.io/Portfolio",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
@@ -13,7 +13,7 @@
 		"node-sass": "^4.14.1",
 		"react": "^16.13.1",
 		"react-dom": "^16.13.1",
-		"react-scripts": "3.4.1",
+		"react-scripts": "^3.4.1",
 		"react-scroll": "^1.7.16",
 		"styled-components": "^5.1.1",
 		"typeface-roboto": "^0.0.75"
